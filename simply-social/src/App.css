@@ -1,0 +1,81 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f4f4f4;
+  background-image: url('/girl-1990347_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+
+ 
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.8);
+  max-width: 90%;
+  width: 600px;
+  border-radius: 15px;
+  padding: 30px;
+  
+}
+
+.navbar {
+  background:black;
+  color:pink;
+  padding: 10px;
+
+}
+.nav-list{
+display:flex;
+list-style-type: none;
+justify-content: center;
+gap: 20px;
+padding:0;
+}
+.nav-list li{
+  display: inline;
+}
+
+.feed {
+  margin: 20px auto;
+  max-width: 450px;
+}
+
+.post {
+  background:pink;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background:palevioletred;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: purple;
+}
+.like-button{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.heart-emoji{
+  font-size:10px;
+ 
+}
